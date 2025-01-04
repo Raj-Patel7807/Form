@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Sign Up</h1>
+        </div>
+        <form>
+            <div class="f-name">
+                <label for="fname">
+                    <p>Full Name</p>
+                    <div class="inp">
+                        <input type="text" id="fname" name="fname" placeholder="Type Name Here">
+                    </div>
+                </label>
+            </div>
+            <div class="mail">
+                <label for="email">
+                    <p>Email</p>
+                    <div class="inp">
+                        <input type="email" id="email" name="email" placeholder="abc@gamil.com">
+                    </div>
+                </label>
+            </div>
+            <div class="pass">
+                <label for="password">
+                    <p>Password</p>
+                    <div class="inp">
+                        <input type="password" id="password" name="password" placeholder="Type Password Here">
+                        <i class="fa-regular fa-eye"></i>
+                    </div>
+                </label>
+            </div>
+            <div class="submit">
+                <button type="submit" id="submit">Create Account</button>
+            </div>
+        </form>
+
+        <div class="login">
+            <p>Already have an account? <a href="#">Login</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
